@@ -33,14 +33,6 @@
 <em>Integration with Qwen3-Coder-Plus model</em>
 </td>
 </tr>
-<tr>
-<td align="center" colspan="2">
-<h3>SSL-Certificate</h3>
-<img src="./asset/SSL-Certificate.png" alt="SSL-Certificate" width="600">
-<br>
-<em>Setting up trust for self-signed certificates</em>
-</td>
-</tr>
 </table>
 </div>
 

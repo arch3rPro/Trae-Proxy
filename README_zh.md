@@ -34,14 +34,6 @@
 <em>接入的Qwen3-Coder-Plus模型</em>
 </td>
 </tr>
-<tr>
-<td align="center" colspan="2">
-<h3>SSL-Certificate</h3>
-<img src="./asset/SSL-Certificate.png" alt="SSL-Certificate" width="600">
-<br>
-<em>设置信任自签证证书</em>
-</td>
-</tr>
 </table>
 </div>
 
