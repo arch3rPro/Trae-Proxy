@@ -1,0 +1,10 @@
+services:
+  trae-proxy:
+    build: .
+    container_name: trae-proxy
+    ports:
+      - "443:443"
+    volumes:
+      - ./ca:/app/ca
+      - ./config.yaml:/app/config.yaml
+    restart: unless-stopped

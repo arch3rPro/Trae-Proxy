@@ -1,0 +1,4 @@
+flask==2.3.3
+werkzeug==2.3.7
+pyyaml==6.0
+requests==2.26.0

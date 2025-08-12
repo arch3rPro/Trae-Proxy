@@ -1,0 +1,28 @@
+# Trae-Proxy 配置文件
+# 代理域名配置
+domain: api.openai.com
+
+# 后端API配置列表
+apis:
+  - name: "deepseek-r1"
+    endpoint: "https://api.deepseek.com"
+    custom_model_id: "deepseek-reasoner"
+    target_model_id: "deepseek-reasoner"
+    stream_mode: null
+    active: true
+  - name: "kimi-k2"
+    endpoint: "https://api.moonshot.cn"
+    custom_model_id: "kimi-k2-0711-preview"
+    target_model_id: "kimi-k2-0711-preview"
+    stream_mode: null
+    active: true
+  - name: "qwen3-coder-plus"
+    endpoint: "https://dashscope.aliyuncs.com/compatible-mode"
+    custom_model_id: "qwen3-coder-plus"
+    target_model_id: "qwen3-coder-plus"
+    stream_mode: null
+    active: true
+# 代理服务器配置
+server:
+  port: 443
+  debug: true
